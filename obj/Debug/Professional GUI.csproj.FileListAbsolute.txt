@@ -1,0 +1,43 @@
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional GUI.csproj.AssemblyReference.cache
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional GUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.FormMainMenu.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Properties.Resources.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional GUI.csproj.GenerateResource.cache
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional GUI.csproj.CoreCompileInputs.cache
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\bin\Debug\Professional GUI.exe.config
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\bin\Debug\Professional GUI.exe
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\bin\Debug\Professional GUI.pdb
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional GUI.exe
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional GUI.pdb
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.MainInfoForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Алгебра.Алгебра_матриц.OperationsForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Алгебра.Алгебра_матриц.MainCharMatrixForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Алгебра.Алгебра_матриц.LUQRForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Алгебра.Комплексные_числа.ComplexForm2.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Алгебра.Комплексные_числа.ComplexForm1.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Алгебра.Комплексные_числа.ComplexModForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Алгебра.Комплексные_числа.ComplexRootsForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.DerForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.IntegralForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.FormGeometry.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.FormAlgebraPolynom.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Алгебра.Теория_чисел.GCDForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Алгебра.Теория_чисел.EulerForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Алгебра.Теория_чисел.ChainedForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Алгебра.Теория_чисел.DiophantForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Алгебра.Теория_чисел.DivisorsForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.ExtrForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.ValueInPointForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.SumRowForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.GraphsForm.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.GraphsForm2.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional GUI.csproj.ResolveComReference.cache
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional_GUI.Формы.Дискретная_математика.Combinatorics.resources
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\bin\Debug\Professional GUI.exe.manifest
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\bin\Debug\Professional GUI.application
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional GUI.exe.manifest
+C:\Users\artdesert\source\repos\Professional GUI\Professional GUI\obj\Debug\Professional GUI.application

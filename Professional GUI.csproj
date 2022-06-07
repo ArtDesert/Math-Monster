@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBC42EAF-7542-4CA8-B4DE-B18F47C44D25}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Professional_GUI</RootNamespace>
+    <AssemblyName>Professional GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\artdesert\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>052C93542AFE27924EC49A16170EDC2441C939C9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Professional GUI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbsPanel.cs" />
+    <Compile Include="Algebra.cs" />
+    <Compile Include="CalcScript.cs" />
+    <Compile Include="Graph.cs" />
+    <Compile Include="PanelIndentity.cs" />
+    <Compile Include="PanelWeight.cs" />
+    <Compile Include="Формы\Геометрия\FormGeometry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Геометрия\FormGeometry.Designer.cs">
+      <DependentUpon>FormGeometry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu.Designer.cs">
+      <DependentUpon>FormMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HandlingExceptions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemeColor.cs" />
+    <Compile Include="Формы\MainInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\MainInfoForm.Designer.cs">
+      <DependentUpon>MainInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Алгебра матриц\MainCharMatrixForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Алгебра матриц\MainCharMatrixForm.Designer.cs">
+      <DependentUpon>MainCharMatrixForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Алгебра матриц\LUQRForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Алгебра матриц\LUQRForm.Designer.cs">
+      <DependentUpon>LUQRForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Алгебра матриц\OperationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Алгебра матриц\OperationsForm.Designer.cs">
+      <DependentUpon>OperationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Алгебра многочленов\FormAlgebraPolynom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Алгебра многочленов\FormAlgebraPolynom.Designer.cs">
+      <DependentUpon>FormAlgebraPolynom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Комплексные числа\ComplexForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Комплексные числа\ComplexForm1.Designer.cs">
+      <DependentUpon>ComplexForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Комплексные числа\ComplexForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Комплексные числа\ComplexForm2.Designer.cs">
+      <DependentUpon>ComplexForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Комплексные числа\ComplexModForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Комплексные числа\ComplexModForm.Designer.cs">
+      <DependentUpon>ComplexModForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Комплексные числа\ComplexRootsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Комплексные числа\ComplexRootsForm.Designer.cs">
+      <DependentUpon>ComplexRootsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Теория чисел\DiophantForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Теория чисел\DiophantForm.Designer.cs">
+      <DependentUpon>DiophantForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Теория чисел\DivisorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Теория чисел\DivisorsForm.Designer.cs">
+      <DependentUpon>DivisorsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Теория чисел\EulerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Теория чисел\EulerForm.Designer.cs">
+      <DependentUpon>EulerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Теория чисел\GCDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Теория чисел\GCDForm.Designer.cs">
+      <DependentUpon>GCDForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Теория чисел\ChainedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Алгебра\Теория чисел\ChainedForm.Designer.cs">
+      <DependentUpon>ChainedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Дискретная математика\Combinatorics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Дискретная математика\Combinatorics.Designer.cs">
+      <DependentUpon>Combinatorics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Дискретная математика\GraphsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Дискретная математика\GraphsForm.Designer.cs">
+      <DependentUpon>GraphsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Дискретная математика\GraphsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Дискретная математика\GraphsForm2.Designer.cs">
+      <DependentUpon>GraphsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Матанализ\DerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Матанализ\DerForm.Designer.cs">
+      <DependentUpon>DerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Матанализ\SumRowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Матанализ\SumRowForm.Designer.cs">
+      <DependentUpon>SumRowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Матанализ\ValueInPointForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Матанализ\ValueInPointForm.Designer.cs">
+      <DependentUpon>ValueInPointForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Матанализ\ExtrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Матанализ\ExtrForm.Designer.cs">
+      <DependentUpon>ExtrForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Матанализ\IntegralForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Матанализ\IntegralForm.Designer.cs">
+      <DependentUpon>IntegralForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Формы\Геометрия\FormGeometry.resx">
+      <DependentUpon>FormGeometry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainMenu.resx">
+      <DependentUpon>FormMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Формы\MainInfoForm.resx">
+      <DependentUpon>MainInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Алгебра матриц\MainCharMatrixForm.resx">
+      <DependentUpon>MainCharMatrixForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Алгебра матриц\LUQRForm.resx">
+      <DependentUpon>LUQRForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Алгебра матриц\OperationsForm.resx">
+      <DependentUpon>OperationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Алгебра многочленов\FormAlgebraPolynom.resx">
+      <DependentUpon>FormAlgebraPolynom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Комплексные числа\ComplexForm1.resx">
+      <DependentUpon>ComplexForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Комплексные числа\ComplexForm2.resx">
+      <DependentUpon>ComplexForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Комплексные числа\ComplexModForm.resx">
+      <DependentUpon>ComplexModForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Комплексные числа\ComplexRootsForm.resx">
+      <DependentUpon>ComplexRootsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Теория чисел\ChainedForm.resx">
+      <DependentUpon>ChainedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Теория чисел\DiophantForm.resx">
+      <DependentUpon>DiophantForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Теория чисел\DivisorsForm.resx">
+      <DependentUpon>DivisorsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Теория чисел\EulerForm.resx">
+      <DependentUpon>EulerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Алгебра\Теория чисел\GCDForm.resx">
+      <DependentUpon>GCDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Дискретная математика\Combinatorics.resx">
+      <DependentUpon>Combinatorics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Дискретная математика\GraphsForm.resx">
+      <DependentUpon>GraphsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Дискретная математика\GraphsForm2.resx">
+      <DependentUpon>GraphsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Матанализ\DerForm.resx">
+      <DependentUpon>DerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Матанализ\ExtrForm.resx">
+      <DependentUpon>ExtrForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Матанализ\SumRowForm.resx">
+      <DependentUpon>SumRowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Матанализ\ValueInPointForm.resx">
+      <DependentUpon>ValueInPointForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Матанализ\IntegralForm.resx">
+      <DependentUpon>IntegralForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Professional GUI_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross-out %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matrix_icon_137416.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-geometry-3873967.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-integral-4872805.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-vertex-6215571.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-matrix-4872235.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\free-icon-down-arrow-54785 %282%29.png" />
+    <None Include="Resources\Math Monster %281%29.png" />
+    <None Include="Resources\Math Monster.png" />
+    <None Include="Resources\MSuBGifZCWZDoTheXG0-Fz2ikobh7ynaR_ZqrixoSL_wYvmE023KFAPz_xRI9qLr42bBXuEjnH8FgFnRct2W2MCz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-numbers-709337.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-matrix-3815182.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-maths-830834.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-3d-cube-3208614.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-coordinate-axes-3933184.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-rubik-522052.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-boolean-1488531.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-numbers-3279274.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-information-1173749.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-minus-747945 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-cross-mark-4225670 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-cross-mark-4225670.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-expand-arrows-6066782.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-cancel-747953.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-minus-747945 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-left-1286997.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-left-12869971.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-menu-5835239.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-menu-5835239 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-reference-3476029.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-textbook-2228580.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-textbook-2228580 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-remove-1103640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-remove-11036401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-plus-1053155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-plus-7131330.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-plus-71313301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-menu-4980554.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-plus-sign-4980439.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-plus-sign-4980439 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-plus-sign-4980439 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-minus-sign-4980136.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-remove-4980246.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-remove-4980246 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-delete-4980599.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-minus-sign-4980136 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-maximize-4979885.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-turn-right-4979908.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-turn-right-4979908 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-remove-4980246 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-diagonal-arrow-4982982.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-diagonal-arrow-4982982 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-plus-2549959.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
